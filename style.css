@@ -1,0 +1,172 @@
+/* Flexbox */
+
+.container-1 {
+    display: flex;
+}
+
+.box-1 {
+    flex: 1;
+    /* makes left column stick */
+    align-self: flex-start;
+    position: sticky;
+    top: 4rem;
+    bottom: 4rem;
+}
+
+.box-2 {
+    flex: 2;
+    margin-right: 2%
+        /* margin: 1% 10% 5% 10%;  only looks nice on large screens, so commented out*/
+}
+
+/* Images */
+
+#cvPic {
+    max-width: 40%;
+    min-width: 40%;
+    height: auto;
+    border-radius: 50%;
+    /* Makes the image round */
+}
+
+#gitImage,
+#liImage,
+#envelope,
+#engIcon {
+    max-width: 10%
+}
+
+#links a:hover {
+    text-decoration: none;
+}
+
+img:hover {
+    background-image: url('./imgs/hover.png');
+}
+
+/* Box formatting */
+
+#experience,
+#portfolio,
+.container-1,
+#competences,
+#education {
+    text-align: center;
+}
+
+#experience,
+#competences,
+#education,
+#links,
+#portfolio {
+    padding-bottom: 10px;
+}
+
+h1,
+h2,
+#description,
+#links,
+.eduItem,
+.expItem,
+#imgDiv {
+    margin: 20px;
+}
+
+#competences h3 {
+    margin: 20px;
+}
+
+/* Background colors */
+
+.container-1 {
+    background-color: rgb(241, 236, 236);
+}
+
+#experience,
+#portfolio {
+    background-color: rgb(230, 236, 236);
+}
+
+#competences {
+    background-color: rgb(235, 231, 227);
+}
+
+#education {
+    background-color: rgb(235, 235, 227);
+}
+
+/* misc class selectors */
+
+.compLang {
+    font-size: 1.1em;
+    color: black;
+}
+
+.eduData {
+    color: grey;
+    font-size: 1.1em;
+}
+
+.eduItem h3 {
+    font-size: 1.2em;
+}
+
+/* misc type selectors */
+
+a {
+    /* color: rgb(98, 124, 54); */
+    color: rgb(40, 71, 97);
+}
+
+#langSwitch a {
+    color: black;
+    font-size: 1.1em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+h4 {
+    font-size: 1.2em;
+    color: grey;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding: 10px;
+    align-items: flex-end;
+    color: rgb(102, 101, 101);
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 768px) {
+    #cvPic {
+        max-width: 30%
+    }
+
+    #gitImage,
+    #liImage,
+    #envelope,
+    #engIcon {
+        max-width: 10%
+    }
+
+    .container-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box-1 {
+        flex: 1;
+        align-self: auto;
+        position: static;
+        top: auto;
+        bottom: auto;
+    }
+}

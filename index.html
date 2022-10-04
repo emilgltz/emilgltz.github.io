@@ -1,12 +1,242 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv-se">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Emil Glantz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imgs/favicon1.png" type="image/png">
+
 </head>
+
 <body>
-    <h1>Hello World</h1>
+
+    <div class="container-1">
+
+        <!-- Vänster kolumn -->
+
+        <div class="box-1">
+
+            <div id="imgDiv">
+                <img id="cvPic" src="./imgs/cvPic.jpg" alt="Bild på mig">
+            </div>
+
+            <div>
+                <h1 id="name">Emil Glantz</h1>
+            </div>
+
+            <div id="description">
+                <p>
+                    Studerar till webbutvecklare och är <br>
+                </p>
+            </div>
+
+            <div id="links">
+                <a href="https://github.com/emilgltz"><img id="gitImage" src="./imgs/GitHub.png" alt="GitHub"> </a>
+                <a href="https://se.linkedin.com/in/emilglantz"><img id="liImage" src="./imgs/LI-In-Bug.png"
+                        alt="LinkedIn">
+                </a>
+                <a href="mailto:emilglantz@hotmail.com"><img id="envelope" src="./imgs/envelope.png" alt="e-post">
+                </a>
+
+            </div>
+
+
+        </div>
+
+        <!-- Huvudkolumn -->
+
+        <div class="box-2">
+            <div id="portfolio">
+
+                <div id="portfolio-title">
+                    <h2>Portfolio</h2>
+                    <a href="https://github.com/emilgltz/">(visas i omvänd kronologisk ordning)</a>
+                </div>
+                <div class="compItem" id="portfolio">
+
+                    <table>
+
+                        <tr>
+                            <td class="compLang"><a href="https://github.com/emilgltz/Filmstudion2">Filmstudion</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>CRUD-applikation med <strong>RESTful API i ASP.NET Core (.NET 5), MSSQL-detabas (EF
+                                    Core),
+                                    och frontend i
+                                    Bootstrap/Vanilla JS</strong>. </td>
+                        </tr>
+
+                        <tr>
+                            <td class="compLang"><a href="">Emils Marssida </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Mobilvänlig sida med API-anrop som visar bilder från drönare på Mars. Ursprungligen
+                                byggd som
+                                <strong>ASP.NET
+                                    Core API</strong>-projekt.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="compLang"><a href="">Inredning Online</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Orderhanteringssida för inredningsföretag. (<strong>ASP.NET Core MVC,
+                                    MSSQL,
+                                    xUnit</strong>)</td>
+                        </tr>
+
+                        <tr>
+                            <td class="compLang"><a href="">En natt på
+                                    museet</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Enkelt textbaserat äventyrsspel på svenska. (<strong>NET Core 3.1</strong>, C#,
+                                konsolapplikation) </td>
+                        </tr>
+
+                        <tr>
+                            <td class="compLang"><a href="">Left To Do</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Att-göra-applikation (C#, <strong>.NET Core 3.1</strong>, konsolapplikation)</td>
+                        </tr>
+
+                        <tr>
+                            <td class="compLang"><a href="">Multifabriken</a>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Konsolapplikation i C# med <strong>.NET Core 3.1</strong>. </td>
+                        </tr>
+
+                        <tr>
+                            <td class="compLang"><a href="">Städer och
+                                    länder</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Single Page Application med <strong>Bootstrap/Vanilla JS</strong>. </td>
+
+                        </tr>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+            <div id="competences">
+
+                <div id="compTitle">
+                    <h2>Kompetenser</h2>
+                </div>
+
+                <div class="compItem" id="techSkills">
+                    <h3>Teknologier</h3>
+                    <table>
+                        <tr>
+                            <td class="compLang">C#/.NET </td>
+                        </tr>
+                        <tr>
+                            <td>ASP.NET Core MVC, Entity Framework Core, Identity Core </td>
+                        </tr>
+                        <tr>
+                            <td class="compLang">HTML/CSS</td>
+                        </tr>
+                        <tr>
+                            <td>Bootstrap, Flexbox</td>
+                        </tr>
+                        <tr>
+                            <td class="compLang">JavaScript</td>
+                        </tr>
+                        <tr>
+                            <td>ES2015+, React, Redux, grundläggande NodeJS/Express </td>
+                        </tr>
+                        <tr>
+                            <td class="compLang">Misc</td>
+                        </tr>
+                        <tr>
+                            <td>Git, Markdown, npm, Parcel, Swagger UI, Windows Subsystem for Linux (WSL)</td>
+                        </tr>
+                    </table>
+
+                    <div class="compItem" id="langSkills">
+                        <h3>Mänskliga språk</h3>
+                        <table>
+                            <tr>
+                                <td class="compLang">Svenska</td>
+                                <td>Modersmål</td>
+                            </tr>
+                            <tr>
+                                <td class="compLang">Engelska</td>
+                                <td>Flytande</td>
+                            </tr>
+
+
+                        </table>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="education">
+
+                <div id="eduTitle">
+                    <h2>Examina</h2>
+                </div>
+
+                <div class="eduItem">
+                    <h3>Webbutvecklare .NET, yrkeshögskoleutbildning </h3>
+                    <div class="eduData">2021-2023 (pågående), Jönköping University</div>
+                    <a href="https://www.varnamo.se/campusvarnamo/utbildning/utbildningsarkiv/webbutvecklarenet.5.f0c3e6e174960600f056fb.html"
+                        target="_blank" rel="noreferrer noopener">Länk till utbildningens hemsida</a>
+
+                </div>
+
+
+
+
+
+
+
+            </div>
+
+            <div id="experience">
+
+                <div id="expTitle">
+                    <h2>Arbetslivserfarenhet</h2>
+                </div>
+
+                <div class="expItem">
+                    <h3>Coop</h3>
+                    <h4>2015-</h4>
+                    <p>Allt möjligt.
+                    </p>
+                </div>
+
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
 </body>
+
 </html>
