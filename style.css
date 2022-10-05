@@ -1,4 +1,4 @@
-/* Flexbox */
+
 
 .container-1 {
     display: flex;
@@ -6,7 +6,7 @@
 
 .box-1 {
     flex: 1;
-    /* makes left column stick */
+
     align-self: flex-start;
     position: sticky;
     top: 4rem;
@@ -16,17 +16,17 @@
 .box-2 {
     flex: 2;
     margin-right: 2%
-        /* margin: 1% 10% 5% 10%;  only looks nice on large screens, so commented out*/
+        
 }
 
-/* Images */
+
 
 #cvPic {
     max-width: 40%;
     min-width: 40%;
     height: auto;
     border-radius: 50%;
-    /* Makes the image round */
+   
 }
 
 #gitImage,
@@ -44,7 +44,6 @@ img:hover {
     background-image: url('./imgs/hover.png');
 }
 
-/* Box formatting */
 
 #experience,
 #portfolio,
@@ -76,46 +75,44 @@ h2,
     margin: 20px;
 }
 
-/* Background colors */
+
 
 .container-1 {
-    background-color: rgb(241, 236, 236);
+    background:linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
 }
 
-#experience,
+#education,
 #portfolio {
-    background-color: rgb(230, 236, 236);
+    background-color: #fff6ee
 }
 
-#competences {
-    background-color: rgb(235, 231, 227);
+#competences,#experience {
+    background-color:#F5F5F5
 }
 
-#education {
-    background-color: rgb(235, 235, 227);
-}
 
-/* misc class selectors */
+
+
 
 .compLang {
-    font-size: 1.1em;
+    font-size: 1.5em;
     color: black;
 }
 
 .eduData {
     color: grey;
-    font-size: 1.1em;
+    font-size: 1.5em;
 }
 
 .eduItem h3 {
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
-/* misc type selectors */
+
 
 a {
-    /* color: rgb(98, 124, 54); */
-    color: rgb(40, 71, 97);
+    
+    color: rgb(86, 97, 40);
 }
 
 #langSwitch a {
@@ -138,12 +135,14 @@ table {
 }
 
 td {
+    font-size: 20px;
     padding: 10px;
     align-items: flex-end;
-    color: rgb(102, 101, 101);
+    color: black;
 }
-
-/* Media queries */
+p {
+    font-size: 20px;
+}
 
 @media only screen and (max-width: 768px) {
     #cvPic {
