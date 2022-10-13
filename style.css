@@ -51,6 +51,7 @@ img:hover {
 #competences,
 #education {
     text-align: center;
+    
 }
 
 #experience,
@@ -61,6 +62,17 @@ img:hover {
     padding-bottom: 10px;
 }
 
+#experience,
+#education,
+#competences,
+#education,
+#portfolio {
+    border-style: groove ;
+    margin-bottom: 10px;
+}
+#portfolio {
+    margin-top: 10px;
+}
 h1,
 h2,
 #description,
